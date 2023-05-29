@@ -1,7 +1,7 @@
 import User from "../models/users.js";
 import { getJwtToken, sendEmail } from "../utils/helpers.js";
 import bcrypt from "bcryptjs";
-import { S3Service } from "../utils/s3Service.js";
+// import { S3Service } from "../utils/s3Service.js";
 
 // Register a new user   =>   /api/v1/register
 export const registerUser = async (req, res) => {
